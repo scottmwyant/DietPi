@@ -20,8 +20,8 @@ AUTO_SETUP_TIMEZONE=America/New_York
 # Enable Ethernet or WiFi adapter: 1=enable | 0=disable
 # - If both Ethernet and WiFi are enabled, WiFi will take priority and Ethernet will be disabled.
 # - If using WiFi, please edit dietpi-wifi.txt to pre-enter credentials.
-AUTO_SETUP_NET_ETHERNET_ENABLED=0
-AUTO_SETUP_NET_WIFI_ENABLED=1
+AUTO_SETUP_NET_ETHERNET_ENABLED=1
+AUTO_SETUP_NET_WIFI_ENABLED=0
 
 # Force Ethernet speeds: 0=automatic speed | 10 = 10 Mbit/s | 100 = 100 Mbit/s etc.
 # - Use this when your Ethernet adapter has an unstable 1 Gbit/s link.
@@ -32,7 +32,7 @@ AUTO_SETUP_NET_WIFI_COUNTRY_CODE=US
 
 # Enter your static network details below, if applicable.
 AUTO_SETUP_NET_USESTATIC=1
-AUTO_SETUP_NET_STATIC_IP=192.168.0.100
+AUTO_SETUP_NET_STATIC_IP=192.168.0.17
 AUTO_SETUP_NET_STATIC_MASK=255.255.255.0
 AUTO_SETUP_NET_STATIC_GATEWAY=192.168.0.1
 AUTO_SETUP_NET_STATIC_DNS=9.9.9.9 149.112.112.112
